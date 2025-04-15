@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        // Create a Scanner object to read input
+        Scanner s = new Scanner(System.in);
+
+        // Prompt user to enter the credit score
+        System.out.println("Enter the credit score:");
+        int n = s.nextInt(); // Store the input in a variable
+
+        // Prompt user to enter the salary
+        System.out.println("Enter the Salary:");
+        int m = s.nextInt();
+
+        // Decision logic
+        if (n >= 600 && m >= 40000) {
+            System.out.println("LOAN APPROVED");
+        } else {
+            System.out.println("LOAN DENIED");
+        }
+
+        // Close the scanner to avoid memory leaks
+        s.close();
+    }
+}

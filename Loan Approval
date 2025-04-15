@@ -1,5 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner; // Importing Scanner class for user input
 
+// A program to determine loan approval based on credit score and salary
 class Main {
     public static void main(String[] args) {
 
@@ -12,13 +13,13 @@ class Main {
 
         // Prompt user to enter the salary
         System.out.println("Enter the Salary:");
-        int m = s.nextInt();
+        int m = s.nextInt(); // Store the input in a variable
 
-        // Decision logic
+        // Decision logic to check eligibility for loan approval
         if (n >= 600 && m >= 40000) {
-            System.out.println("LOAN APPROVED");
+            System.out.println("LOAN APPROVED"); // Print approval message if conditions are met
         } else {
-            System.out.println("LOAN DENIED");
+            System.out.println("LOAN DENIED"); // Print denial message if conditions are not met
         }
 
         // Close the scanner to avoid memory leaks

@@ -1,7 +1,7 @@
 import java.util.Scanner; // Import the Scanner class for taking user input
 
 // A program to calculate and display the sum of cubes of numbers from 1 to n
-public class PowerSeries {
+public class cubeSum {
     public static void main(String[] args) {
         // Create a Scanner object to read input from the user
         Scanner scanner = new Scanner(System.in);

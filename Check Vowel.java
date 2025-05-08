@@ -1,23 +1,25 @@
-import java.util.Scanner; // Import the Scanner class for potential user input (currently unused)
+import java.util.Scanner; // Import the Scanner class
 
 class Main {
     public static void main(String[] args) {
-        // Define the input string to check for vowels
-        String str = "aeiou"; // Input string containing characters to analyze
-        int index = 0; // Initialize an index to iterate through the string
-        int count = 0; // Initialize a counter to count the number of vowels
+        Scanner sc = new Scanner(System.in);
+
+        // Input string to analyze
+        String str = sc.nextLine(); // Reads the entire line of input
+
+        int count = 0; // Counter for vowels
 
         // Loop through each character in the string
         for (int i = 0; i < str.length(); i++) {
-            // Check if the character at the current index is a vowel
-            // This condition checks for lowercase vowels: 'a', 'e', 'i', 'o', 'u'
-            if (str.charAt(index) == 'a' || str.charAt(index) == 'e' || str.charAt(index) == 'i' || str.charAt(index) == 'o' || str.charAt(index) == 'u') {
-                count++; // Increment the vowel counter if a vowel is found
+            char ch = str.charAt(i);
+            // Check if the character is a vowel (both lower and uppercase)
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+                ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+                count++;
             }
-            index++; // Move to the next character in the string
         }
 
-        // Output the total number of vowels found in the input string
+        // Output the result
         System.out.println("Number of Vowels are: " + count);
     }
 }

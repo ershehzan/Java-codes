@@ -1,10 +1,13 @@
+
 import java.util.Scanner; // Importing the Scanner class for potential user input (currently unused)
 
 class Main {
     public static void main(String[] args) {
-        // Step 1: Define a string to check if it's a palindrome
-        String str = "NAMAN"; // Predefined string to demonstrate palindrome checking
+        Scanner sc = new Scanner(System.in);
 
+        // Input string to analyze
+        System.out.print("Enter the String :" );
+        String str = sc.nextLine();
         // Step 2: Initialize two pointers
         int start = 0; // Pointer to the beginning of the string
         int end = str.length() - 1; // Pointer to the end of the string

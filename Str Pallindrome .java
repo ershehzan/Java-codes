@@ -1,25 +1,29 @@
-import java.util.Scanner;
+import java.util.Scanner; // Importing the Scanner class for potential user input (currently unused)
 
 class Main {
     public static void main(String[] args) {
-    //     System.out.println();
-   //  Scanner s=new Scanner(System.in);
-    String str = "NAMAN"; 
-    
-    int start = 0;  
-    int end = str.length() - 1;  
-    
-    while (start < end) {
-        
-        if (str.charAt(start) != str.charAt(end)) {
-            System.out.println("Not a Palindrome"); 
-            return;  
+        // Step 1: Define a string to check if it's a palindrome
+        String str = "NAMAN"; // Predefined string to demonstrate palindrome checking
+
+        // Step 2: Initialize two pointers
+        int start = 0; // Pointer to the beginning of the string
+        int end = str.length() - 1; // Pointer to the end of the string
+
+        // Step 3: Use a while loop to check characters from both ends
+        while (start < end) {
+            // Step 4: Compare characters at 'start' and 'end' positions
+            if (str.charAt(start) != str.charAt(end)) {
+                // If a mismatch is found, the string is not a palindrome
+                System.out.println("Not a Palindrome");
+                return; // Exit the program as we already know the result
+            }
+
+            // Step 5: Move the pointers closer to the center
+            start++; // Increment the 'start' pointer
+            end--;   // Decrement the 'end' pointer
         }
-        
-        start++;
-        end--;
-    }
-    
-    System.out.println("String is Palindrome"); 
+
+        // Step 6: If the loop completes without mismatches, the string is a palindrome
+        System.out.println("String is Palindrome");
     }
 }

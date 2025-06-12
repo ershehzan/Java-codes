@@ -1,9 +1,11 @@
+// Class representing an Employee
 class Emp {
+    // Fields to store employee's name, id, and monthly salary
     String name;
     int id;
     double salary;
 
-    // Constructor
+    // Constructor to initialize employee details
     Emp(String n, int i, double s) {
         name = n;
         id = i;
@@ -23,8 +25,9 @@ class Emp {
         System.out.println("Annual Salary: ₹" + getYearSalary());
     }
 
+    // Main method to test the Emp class
     public static void main(String[] args) {
-        Emp e1 = new Emp("Rahul", 101, 25000);
-        e1.show();
+        Emp e1 = new Emp("Rahul", 101, 25000); // Create an employee object
+        e1.show(); // Display employee details
     }
 }

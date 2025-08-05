@@ -22,7 +22,7 @@ class Main {
             }
         }
 
-        // Print the sorted array
+        // Print the sorted array in ascending order
         System.out.print("Sorted Array: ");
         for (int num : arr) {
             System.out.print(num + " ");

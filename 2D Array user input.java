@@ -2,6 +2,7 @@ import java.util.Scanner; // Importing the Scanner class for user input
 
 // Main class to demonstrate user input and manipulation of a 2D array
 class Main {
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object for reading input from the user
 

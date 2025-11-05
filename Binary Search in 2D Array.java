@@ -26,7 +26,8 @@ public class MatrixBinarySearch {
         boolean found = false;      // Flag to indicate if the element is found
 
         // Perform binary search on the virtual 1D representation of the 2D matrix
-        while (start <= end) {
+        while (start <= end) 
+        {
             int mid = (start + end) / 2;            // Calculate the mid index
 
             int rowIndex = mid / m;                 // Map mid index to row in 2D matrix

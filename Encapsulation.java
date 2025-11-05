@@ -17,7 +17,8 @@ class Student {
     }
 
     // Setter method for roll number
-    public void setRollno(int r) {
+    public void setRollno(int r) 
+    {
         rollno = r;
     }
 

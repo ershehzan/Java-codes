@@ -28,7 +28,8 @@ class Main {
                 int sum = arr[i] + arr[start] + arr[end]; // Calculate the sum of the triplet
 
                 // If the sum matches the target, print the triplet and their indices
-                if (sum == target) {
+                if (sum == target)
+                {
                     System.out.println("Triplet found: [" + arr[i] + ", " + arr[start] + ", " + arr[end] + "]");
                     System.out.println("Triplet index: [" + i + ", " + start + ", " + end + "]");
                     sc.close(); // Close the Scanner before exiting

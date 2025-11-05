@@ -35,7 +35,6 @@ class Main {
                 start++;
             }
         }
-
         // If no matching pair is found, print a message indicating no match
         System.out.println("No Match ");
     }

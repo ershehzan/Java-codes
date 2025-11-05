@@ -23,7 +23,8 @@ class Student {
     }
 
     // Getter method for roll number
-    public int getRollno() {
+    public int getRollno() 
+    {
         return rollno;
     }
 }

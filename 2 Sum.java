@@ -16,7 +16,8 @@ class Main {
         int start = 0, end = n - 1;
 
         // Two-pointer approach to find a pair of elements that sum up to the target
-        while (start < end) {
+        while (start < end) 
+        {
             int sum = arr[start] + arr[end]; // Calculate the sum of elements at the start and end pointers
 
             // If the sum matches the target, print the pair and their indices

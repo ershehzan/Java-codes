@@ -3,7 +3,6 @@ import java.util.Scanner; // Import the Scanner class
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         // Input string to analyze
         String str = sc.nextLine(); // Reads the entire line of input
 

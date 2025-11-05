@@ -11,10 +11,8 @@ class Main {
         // Prompt the user to input the target sum
         System.out.print("Enter the target: ");
         int target = sc.nextInt(); // Read the target value from the user
-
         // Initialize two pointers: start (beginning of the array) and end (last element of the array)
         int start = 0, end = n - 1;
-
         // Two-pointer approach to find a pair of elements that sum up to the target
         while (start < end) 
         {

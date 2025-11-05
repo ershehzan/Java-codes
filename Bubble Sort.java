@@ -13,8 +13,7 @@ class Main {
         for (int i = 0; i < n - 1; i++) {
             // Inner loop: compares adjacent elements and swaps them if needed
             for (int j = 0; j < n - i - 1; j++) 
-            {
-                // If the current element is greater than the next, swap them
+            {// If the current element is greater than the next, swap them
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];           // Store current element in temp
                     arr[j] = arr[j + 1];         // Move next element to current position

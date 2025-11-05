@@ -15,7 +15,8 @@ class Main {
         int start = 0, end = n - 1; // Initialize the start and end indices for the search range
 
         // Perform binary search
-        while (start <= end) { // Continue searching while the range is valid
+        while (start <= end) 
+        { // Continue searching while the range is valid
             int mid = start + (end - start) / 2; // Calculate the middle index to avoid integer overflow
 
             if (arr[mid] == key) { // If the key is found at the mid index

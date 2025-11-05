@@ -11,7 +11,6 @@ class Main {
         String[] words = str.trim().split("\\s+");
         // Calculate the total number of words by determining the length of the words array
         int wordCount = words.length;
-
         // Print the total word count to the console
         System.out.println("Number of words: " + wordCount);
     }

@@ -27,7 +27,8 @@ class Main {
 
         // Display the 2D array in matrix form
         System.out.println("2D Array:");
-        for (int i = 0; i < rows; i++) { // Outer loop iterates over each row
+        for (int i = 0; i < rows; i++) 
+        { // Outer loop iterates over each row
             for (int j = 0; j < cols; j++) { // Inner loop iterates over each column in the current row
                 System.out.print(arr[i][j] + " "); // Print the current element followed by a space
             }

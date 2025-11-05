@@ -39,7 +39,8 @@ class Main {
                     end--;
                 } 
                 // If the sum is less than the target, move the start pointer right to increase the sum
-                else {
+                else
+                {
                     start++;
                 }
             }

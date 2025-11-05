@@ -43,6 +43,7 @@ public class Main
 
         // Get and print name and roll number using getter methods
         System.out.println("Student Name: " + s.getName());
+        
         System.out.println("Student Roll Number is: " + s.getRollno());
     }
 }

@@ -30,7 +30,8 @@ class Student {
 }
 
 // Main class to test the Student class
-public class Main {
+public class Main 
+{
     public static void main(String[] args) {
         // Create an object of Student
         Student s = new Student();

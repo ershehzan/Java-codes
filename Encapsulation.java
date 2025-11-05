@@ -5,7 +5,8 @@ class Student {
     private int rollno;
 
     // Setter method for name
-    public void setName(String n) {
+    public void setName(String n)
+    {
         name = n;
     }
 

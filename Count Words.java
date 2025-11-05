@@ -9,7 +9,6 @@ class Main {
         // Step 2: Split the string into an array of words based on whitespace
         // "\\s+" is a regular expression that matches one or more whitespace characters
         String[] words = str.trim().split("\\s+");
-
         // Calculate the total number of words by determining the length of the words array
         int wordCount = words.length;
 

@@ -28,6 +28,7 @@ class Main {
 
         // Print the matrix after the 90-degree rotation
         System.out.println("Matrix after 90 degree rotation:");
+        
         for (int i = 0; i < 3; i++) { // Loop through each row of the rotated matrix
             for (int j = 0; j < 3; j++) { // Loop through each column of the rotated matrix
                 System.out.print(ans[i][j] + " "); // Print the element in the rotated matrix

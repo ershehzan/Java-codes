@@ -4,7 +4,6 @@ class Main {
     public static void main(String[] args) {
         // The predefined input string to count words
         String str = "Hello this is a test string"; // Example string with multiple words
-
         // Step 1: Trim leading and trailing whitespace from the string
         // Step 2: Split the string into an array of words based on whitespace
         // "\\s+" is a regular expression that matches one or more whitespace characters

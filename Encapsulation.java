@@ -11,7 +11,8 @@ class Student {
     }
 
     // Getter method for name
-    public String getName() {
+    public String getName() 
+    {
         return name;
     }
 

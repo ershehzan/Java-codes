@@ -35,7 +35,8 @@ public class Main {
                 System.out.println("Pair found at index [" + i + " and " + j + "]");
                 found = true;
                 break; // Exit loop if pair is found
-            } else if (arr[j] - arr[i] < k) {
+            }
+            else if (arr[j] - arr[i] < k) {
                 // If current difference is less than 'k', move the 'j' pointer forward to increase the difference
                 j++;
             } else {

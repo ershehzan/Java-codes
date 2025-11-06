@@ -7,10 +7,8 @@ public class Main {
         // Step 1: Input the size of the array
         System.out.print("Enter the size of the array: ");
         int n = sc.nextInt();
-
         // Step 2: Declare the array of size 'n'
         int[] arr = new int[n];
-
         // Step 3: Input the elements of the array
         System.out.println("Enter the elements of the array: ");
         for (int i = 0; i < n; i++) {

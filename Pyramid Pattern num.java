@@ -26,7 +26,6 @@ class Main {
                 System.out.print(temp + " "); // Print the current number followed by a space
                 temp++; // Increment the number to be printed next
             }
-            
             // Move to the next line after completing the row
             System.out.println();
         }

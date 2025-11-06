@@ -52,7 +52,6 @@ public class SpiralMatrix {
                 left++; // Move the left boundary right
             }
         }
-
         System.out.println(); // Print a newline at the end for clean output
     }
 }

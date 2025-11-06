@@ -14,7 +14,8 @@ class Main {
         // Analyze the temperature and provide feedback
         if (n < 0) {
             System.out.println("Freezing Warning"); // Display a freezing warning for temperatures below 0
-        } else if (n > 0 && n <= 20) {
+        } 
+        else if (n > 0 && n <= 20) {
             System.out.println("Cold"); // Display "Cold" for temperatures between 1 and 20
         } else if (n > 20 && n <= 35) {
             System.out.println("Normal"); // Display "Normal" for temperatures between 21 and 35

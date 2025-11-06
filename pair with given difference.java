@@ -39,7 +39,8 @@ public class Main {
             else if (arr[j] - arr[i] < k) {
                 // If current difference is less than 'k', move the 'j' pointer forward to increase the difference
                 j++;
-            } else {
+            } 
+            else {
                 // If current difference is greater than or equal to 'k', move 'i' forward to decrease the difference
                 i++;
             }

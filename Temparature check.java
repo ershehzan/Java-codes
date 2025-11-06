@@ -20,7 +20,8 @@ class Main {
         }
         else if (n > 20 && n <= 35) {
             System.out.println("Normal"); // Display "Normal" for temperatures between 21 and 35
-        } else {
+        } 
+        else {
             System.out.println("Heat Alert"); // Display a heat alert for temperatures above 35
         }
 

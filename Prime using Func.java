@@ -3,7 +3,6 @@ import java.util.Scanner; // Importing the Scanner class for user input
 public class Main {
 
     static void prime(int n) {
-
         if (n <= 1) {
             System.out.println(n + " is not a prime number.");
             return;

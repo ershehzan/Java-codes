@@ -1,5 +1,4 @@
 import java.util.Scanner; // Importing the Scanner class for user input
-
 // Main class containing the logic for checking if a number is prime
 public class Main {
 

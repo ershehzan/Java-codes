@@ -12,7 +12,6 @@ class Main {
         // Loop through all numbers from 2 to n to check for prime numbers
         for (int i = 2; i <= n; i++) {
            int divcount=0;// Assume the current number is prime
-
             // Inner loop: Check if the current number i is divisible by any number other than 1 and itself
             for (int j = 2; j <= i / 2; j++) {
                 if (i % j == 0) { // If i is divisible by j, it's not a prime number

@@ -21,7 +21,6 @@ public class Main {
             System.out.println(n + " is not a prime number.");
         }
     }
-
     public static void main(String[] args) {
         // Create a Scanner object to read user input
         Scanner sc = new Scanner(System.in);

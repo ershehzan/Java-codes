@@ -7,7 +7,6 @@ public class Main {
             System.out.println(n + " is not a prime number.");
             return;
         }
-
         int count = 0; // Counter to track if any divisor is found
 
         for (int i = 2; i <= n / 2; i++) {

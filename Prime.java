@@ -26,7 +26,6 @@ class Main {
                 count++; // Increment the count of prime numbers
             }
         }
-
         // Print the total count of prime numbers between 1 and n
         System.out.print("\nNumber of prime numbers between 1 and " + n + " is: " + count);
     }

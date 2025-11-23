@@ -9,7 +9,6 @@ public class MovieTicket {
         this.seatNumber = seatNumber;
         this.isBooked = false; // Default status is not booked
     }
-
     // Method to book the ticket if it's not already booked
     public void bookTicket() {
         if (!isBooked) {

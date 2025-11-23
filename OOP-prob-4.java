@@ -39,7 +39,6 @@ public class MovieTicket {
     // Main method to test the MovieTicket class
     public static void main(String[] args) {
         MovieTicket ticket1 = new MovieTicket("Avengers: Endgame", "A10"); // Create a new movie ticket
-
         ticket1.displayTicketInfo(); // Before booking
         ticket1.bookTicket();        // Book the ticket
         ticket1.displayTicketInfo(); // After booking

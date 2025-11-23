@@ -2,7 +2,6 @@ import java.util.Scanner; // Importing the Scanner class for user input
 // Main class containing the entry point of the program
 class Main {
     public static void main(String[] args) {
-
         // Create a Scanner object to read input from the user
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: "); // Prompt the user to enter a number

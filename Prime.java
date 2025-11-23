@@ -6,9 +6,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: "); // Prompt the user to enter a number
         int n = scanner.nextInt(); // Read the integer input from the user
-        
         int count = 0; // Variable to count the number of prime numbers found
-
         System.out.print("Prime numbers between 1 and " + n + " are:");
 
         // Loop through all numbers from 2 to n to check for prime numbers

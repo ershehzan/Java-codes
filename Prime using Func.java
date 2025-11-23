@@ -15,7 +15,6 @@ public class Main {
                 break;   // No need to check further
             }
         }
-
         if (count == 0) {
             System.out.println(n + " is a prime number.");
         } else {

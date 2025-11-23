@@ -1,5 +1,4 @@
 import java.util.Scanner; // Importing the Scanner class for user input
-
 // Main class containing the entry point of the program
 class Main {
     public static void main(String[] args) {

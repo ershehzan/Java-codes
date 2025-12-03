@@ -3,7 +3,6 @@ import java.util.Arrays;
 
 class Main {
     public static void main(String[] args) {
-
         // Initialize a Scanner object to take input from the user
         Scanner sc = new Scanner(System.in);
 

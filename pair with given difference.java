@@ -1,4 +1,4 @@
-      import java.util.Scanner;
+       import java.util.Scanner;
 // Main class containing the program logic
 public class Main {
     

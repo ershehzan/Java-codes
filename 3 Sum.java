@@ -25,7 +25,6 @@ class Main {
             // Two-pointer approach to find the other two elements of the triplet
             while (start < end) {
                 int sum = arr[i] + arr[start] + arr[end]; // Calculate the sum of the triplet
-
                 // If the sum matches the target, print the triplet and their indices
                 if (sum == target)
                 {

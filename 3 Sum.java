@@ -5,7 +5,6 @@ class Main {
     public static void main(String[] args) {
         // Initialize a Scanner object to take input from the user
         Scanner sc = new Scanner(System.in);
-
         // Define an array of integers
         int[] arr = {3, 4, 6, 8, 11, 12, 34, 41}; // Array to store elements
         int n = arr.length; // Get the length of the array

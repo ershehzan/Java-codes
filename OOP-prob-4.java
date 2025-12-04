@@ -19,7 +19,8 @@ public class MovieTicket {
         {
             isBooked = true;
             System.out.println("Ticket booked for " + movieName + " at seat " + seatNumber + ".");
-        } else {
+        } else 
+        {
             System.out.println("Seat " + seatNumber + " is already booked.");
         }
     }

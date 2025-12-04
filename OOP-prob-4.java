@@ -26,7 +26,8 @@ public class MovieTicket {
     }
 
     // Method to cancel the ticket if it is currently booked
-    public void cancelTicket() {
+    public void cancelTicket() 
+    {
         if (isBooked) {
             isBooked = false;
             System.out.println("Booking canceled for seat " + seatNumber + ".");

@@ -4,7 +4,8 @@ public class MovieTicket {
     private String seatNumber;
     private boolean isBooked;
     // Constructor to initialize the movie name and seat number, booking status is set to false by default
-    public MovieTicket(String movieName, String seatNumber) {
+    public MovieTicket(String movieName, String seatNumber) 
+    {
         this.movieName = movieName;
         this.seatNumber = seatNumber;
         this.isBooked = false; // Default status is not booked

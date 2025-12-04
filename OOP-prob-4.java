@@ -32,7 +32,8 @@ public class MovieTicket {
         {
             isBooked = false;
             System.out.println("Booking canceled for seat " + seatNumber + ".");
-        } else {
+        } else 
+        {
             System.out.println("Seat " + seatNumber + " is not booked yet.");
         }
     }

@@ -4,7 +4,6 @@ import java.util.Scanner;
  * where k is input by the user. It also includes a utility to print the matrix.
  */
 public class MatrixRotation {
-
     /**
      * Rotates the given square matrix by 90 degrees clockwise in-place.
      * This is done in two steps:

@@ -30,7 +30,8 @@ public class MovieTicket {
     }
 
     // Method to display ticket information and current booking status
-    public void displayTicketInfo() {
+    public void displayTicketInfo()
+    {
         System.out.println("Movie: " + movieName);
         System.out.println("Seat Number: " + seatNumber);
         System.out.println("Booking Status: " + (isBooked ? "Booked" : "Available"));

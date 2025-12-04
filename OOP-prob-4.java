@@ -1,4 +1,5 @@
 public class MovieTicket {
+    
     // Private fields for the movie name, seat number, and booking status
     private String movieName;
     private String seatNumber;

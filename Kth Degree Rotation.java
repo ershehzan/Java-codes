@@ -61,7 +61,8 @@ public class MatrixRotation {
      * It creates a 4x4 matrix, takes input for the number of 90-degree rotations,
      * performs the rotation, and prints the result.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         // Initialize a 4x4 matrix with sample values

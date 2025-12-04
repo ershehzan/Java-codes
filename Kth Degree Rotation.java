@@ -27,7 +27,8 @@ public class MatrixRotation {
         }
 
         // Step 2: Reverse each row to achieve 90-degree rotation
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             int start = 0, end = n - 1;
             while (start < end) {
                 // Swap elements at the beginning and end of the row

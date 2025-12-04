@@ -13,7 +13,8 @@ public class MovieTicket {
         this.isBooked = false; // Default status is not booked
     }
     // Method to book the ticket if it's not already booked
-    public void bookTicket() {
+    public void bookTicket() 
+    {
         if (!isBooked) {
             isBooked = true;
             System.out.println("Ticket booked for " + movieName + " at seat " + seatNumber + ".");

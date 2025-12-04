@@ -15,7 +15,8 @@ public class MovieTicket {
     // Method to book the ticket if it's not already booked
     public void bookTicket() 
     {
-        if (!isBooked) {
+        if (!isBooked) 
+        {
             isBooked = true;
             System.out.println("Ticket booked for " + movieName + " at seat " + seatNumber + ".");
         } else {

@@ -12,7 +12,8 @@ public class MatrixRotation {
      *
      * @param matrix The square matrix to be rotated
      */
-    public static void rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix)
+    {
         int n = matrix.length;
 
         // Step 1: Transpose the matrix (convert rows to columns)

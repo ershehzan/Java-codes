@@ -19,7 +19,8 @@ public class MatrixRotation {
         // Step 1: Transpose the matrix (convert rows to columns)
         for (int i = 0; i < n; i++) 
         {
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < n; j++) 
+            {
                 // Swap elements at (i, j) and (j, i)
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];

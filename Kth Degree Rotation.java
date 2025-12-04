@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * This class provides functionality to rotate a square matrix by k * 90 degrees clockwise,
  * where k is input by the user. It also includes a utility to print the matrix.

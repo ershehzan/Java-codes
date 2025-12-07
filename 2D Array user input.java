@@ -5,7 +5,6 @@ class Main {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Create a Scanner object for reading input from the user
-
         // Prompt the user to enter the number of rows for the 2D array
         System.out.print("Enter number of rows: ");
         int rows = scanner.nextInt(); // Read the number of rows from the user

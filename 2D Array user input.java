@@ -1,4 +1,4 @@
-  import java.util.Scanner; // Importing the Scanner class for user input
+   import java.util.Scanner; // Importing the Scanner class for user input
 
 // Main class to demonstrate user input and manipulation of a 2D array
 class Main {

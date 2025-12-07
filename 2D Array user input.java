@@ -23,7 +23,6 @@ class Main {
                 arr[i][j] = scanner.nextInt(); // Read and store the element in the 2D array
             }
         }
-
         // Display the 2D array in matrix form
         System.out.println("2D Array:");
         for (int i = 0; i < rows; i++) 

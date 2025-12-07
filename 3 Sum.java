@@ -9,7 +9,6 @@ class Main {
         // Define an array of integers
         int[] arr = {3, 4, 6, 8, 11, 12, 34, 41}; // Array to store elements
         int n = arr.length; // Get the length of the array
-
         // Prompt the user to input the target sum
         System.out.print("Enter the target: ");
         int target = sc.nextInt(); // Read the target value from the user
